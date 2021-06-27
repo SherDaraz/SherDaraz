@@ -1,0 +1,73 @@
+body { 
+    margin:100px;
+    padding:0;
+    background:rgb(255, 255, 255);
+     font-family:'releway'sans-serif;
+     color:rgb(255, 255, 255);
+
+
+     
+
+}
+.banner{
+    height:100vh;
+    width:100%;
+    background:url('JPG File (.jpg)');
+    background-position: top;
+   /* background-attachment: fixed;*/
+   background-repeat: no-repeat; 
+  
+  
+}
+.banner.navbar{
+  margin-top:4%;
+
+}
+.banner.banner.navbar-brand{
+  color:blue;
+  font-size: 1.8em;
+ font-weight: 700;
+ margin-left: 10%;;
+}
+.banner.nav{
+  margin-right: 10%;
+  
+}
+.banner.nav li a {
+  color:brown;
+  font-size: 1.5em;
+
+}
+.banner.info
+{
+margin-top: 15%;
+transform: translateY(-15%);
+}
+
+.banner .info h1{
+  font-size: 2em;
+  font-weight: 700%;
+  color: blueviolet;
+  letter-spacing: 2px;
+}
+
+.banner .info p{
+  font-size: 6em;
+  font-weight: 500%;
+  color: darkgoldenrod;
+  letter-spacing: 2px;
+}
+   .banner .info a{
+     margin-left: 50%;
+     transform: translateX(-50%);
+     color: darkgreen;
+     background: darkkhaki;
+     padding:10px 20px;
+     font-size: 2em;
+     font-weight: 800;
+   } 
+   .banner .info a :hover{
+     background: darkmagenta;
+     
+
+   }
